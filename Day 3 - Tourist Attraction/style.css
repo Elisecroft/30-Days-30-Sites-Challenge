@@ -1,0 +1,148 @@
+/* GENERAL */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+
+p {
+  padding: 0 10%;
+  font-size: 18px;
+}
+
+.container-fluid {
+  padding: 45px 0;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-1 {
+  background-color: #35BD92;
+  color: #FFFFFF;
+}
+
+.bg-2 {
+  background-color: #464A52;
+  color: #FFFFFF;
+}
+
+.bg-3 {
+  background-color: #27292E;
+  color: #FFFFFF;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.btn-info.custom-btn {
+  color: #FFFFFF;
+  background-color: #35BD92;
+  border: #35BD92;
+}
+
+.btn-info.custom-btn:hover {
+  color: #FFFFFF;
+  background-color: #40E6B1;
+  border: #40E6B1;
+}
+
+.btn-info.custom-btn-2 {
+  color: #555555;
+  background-color: #FFFFFF;
+  border: #FFFFFF;
+}
+
+.btn-info.custom-btn-2:hover {
+  color: #555555;
+  background-color: #E6E6E6;
+  border: #E6E6E6;
+}
+
+/* NAVBAR */
+
+.logo {
+  width: 70px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 650px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/34223/mont-saint-michel-france-normandy-europe.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  position: relative;
+}
+
+.hero h2 {
+  font-size: 65px;
+  padding-top: 180px;
+}
+
+/* ABOUT */
+
+.shadow {
+  -webkit-box-shadow: 0px -4px 17px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -4px 17px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px -4px 17px 0px rgba(0,0,0,0.75);
+}
+
+/* WHAT */
+
+#what h4 {
+  color: #35BD92;
+}
+
+/* CONTACT */
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #35BD92;
+  text-decoration: none;
+}
+
+.icon {
+  color: #35BD92;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1168px) {
+  #how h4 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 857px) {
+  #how h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  #how h4 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  #how h4 {
+    font-size: 20px;
+  }
+}
