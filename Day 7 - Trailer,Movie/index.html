@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inside subway</title>
+    <meta charset="utf-8">
+    <!-- My CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Ionicons CSS -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark static-top">
+        <div class="container">
+          <h1><a class="navbar-brand" href="#">Inside Subway
+          </a></h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trailer">Trailer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Join Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="container-fluid hero text-center" id="home">
+        <video autoplay muted loop id="heroVideo">
+         <source src="https://storage.coverr.co/videos/Under?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTY2Njc2MjEwLCJleHAiOjE1NjY2Nzk4MTB9.PRup7CwBe9p1NR62DEXCKSEGXzeMh_RaLrmGRWooGFw" type="video/mp4">
+        </video>
+        <h2 class="margin">Leave<br>When it's possible</h2>
+      </div>
+    </header>
+      <!-- Trailer-->
+      <div class="container-fluid bg-1 text-center" id="trailer">
+        <h3>Watch the trailer</h3>
+        <p class="margin">Do you wanna come ?</p>
+        <video autoplay muted loop id="trailerVideo">
+         <source src="https://storage.coverr.co/videos/Hold?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTY2Njc2MjEwLCJleHAiOjE1NjY2Nzk4MTB9.PRup7CwBe9p1NR62DEXCKSEGXzeMh_RaLrmGRWooGFw" type="video/mp4">
+        </video>
+      </div>
+      <!-- About -->
+      <div class="container-fluid text-center bg-2" id="about">
+        <h3>About the movie</h3>
+        <p class="margin">Get more informations</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid margin" src="https://images.unsplash.com/photo-1512609000700-6f2a852117db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80">
+          </div>
+          <div class="col-lg-8">
+            <h4>History</h4>
+            <p class="margin">Itaque dicunt nec dubitant: mihi sic usus est, tibi ut opus est facto, fac. Qui ita affectus, beatum esse numquam probabis; Quod non faceret, si in voluptate summum bonum poneret. Aut unde est hoc contritum vetustate proverbium.</p>
+            <h4>Realisator</h4>
+            <p>Istam voluptatem, inquit, Epicurus ignorat? Ut pulsi recurrant? Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Quare, quoniam de primis naturae commodis satis dietum est nunc de maioribus consequentibusque videamus.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Social Links -->
+      <div class="container-fluid text-center bg-1" id="contact">
+        <h3>Don't be affraid an join us !</h3>
+        <p>All news, articles and other are here</p>
+        <div class="social-badges">
+          <a href="#"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/svg/145/145804.svg" alt="google+"></a>
+        </div>
+      </div>
+      <!-- Footer -->   
+      <footer>
+        <div class="container-fluid text-center bg-3">
+          <p>Bootstrap Theme made with <ion-icon class="icon" name="heart"></ion-icon> by Elise Guezel<p> 
+          <p>Images are available on <a href="https://unsplash.com">Unspash</a> and <a href="https://www.freepik.com">Freepik</a></p>
+        </div>
+      </footer>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Ionicons Script -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
