@@ -1,0 +1,103 @@
+/* GENERAL */
+
+p {
+  font-size: 22px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 45px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.bg-1 {
+  background-color: #5B76B6;
+  color: #FFFFFF;
+}
+
+.bg-3 {
+  background-color: #141414;
+  color: #FFFFFF;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+/* NAVBAR */
+
+.navbar-nav li a {
+  color: #FFFFFF !important;
+}
+
+.navbar-nav li a:hover {
+  color: #5B76B6 !important;
+}
+
+.navbar h1 {
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+/* HERO */
+
+.bg-hero {
+  background-image: url(https://zupimages.net/up/19/34/1l9s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  color: #FFFFFF;
+}
+
+.bg-hero h2 {
+  margin-top: 130px;
+  font-size: 80px;
+}
+
+/* WHO */
+
+#kazoo {
+  max-width: 300px;
+}
+
+/* SPACE */
+
+.bg-space {
+  min-height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ytimg.com/vi/SvaBaq9yuxY/maxresdefault.jpg");
+}
+
+/* SOCIAL */
+
+#social a {
+  color: #FFFFFF;
+}
+
+#social .icon {
+  font-size: 35px;
+}
+
+/* FOOTER */
+
+footer .icon {
+  color: #5B76B6;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1199px) {
+  #kazoo {
+    max-width: 180px;
+  }
+}
