@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Professional Photographer</title>
+    <meta charset="utf-8">
+    <!-- My CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Ionicons CSS -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <h1><a class="navbar-brand" href="#"><ion-icon class="icon" name="camera"></ion-icon> Emie Photographer
+        </a></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#performances">PERFORMANCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quote">QUOTE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="container-fluid bg-hero" id="home">
+    </div>
+    <!-- About -->
+    <div class="container-fluid text-center" id="about">
+      <h3>About Me</h3>
+      <p class="margin subtitle">Some informations</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="curse">
+            <p>Bachelor of art in Digital Photography</p>
+            <p class="margin subtitle">2013-2016<p>
+            <img class="img-fluid margin" src="https://image.flaticon.com/icons/png/512/22/22124.png" alt="bottom arrow">
+            <p>Assistant Photographer</p>
+            <p class="margin subtitle">2016-2018<p>
+            <img class="img-fluid margin" src="https://image.flaticon.com/icons/png/512/22/22124.png" alt="bottom arrow">
+            <p>Freelance Photographer</p>
+            <p class="margin subtitle">Since 2018<p>
+          </div>
+          <div class="col-md-6">
+           <img class="img-fluid" id="photographer-portrait" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt ="Emie the photographer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Performances -->
+    <div class="container-fluid text-center bg-1" id="performances">
+      <h3>Performances</h3>
+      <p class="margin subtitle">Here's kind of evenments that I photography</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="margin">Wedding</h4>
+            <img class="img-fluid margin" src="https://zupimages.net/up/19/35/ab67.jpg" alt="wedding example">
+          </div>
+          <div class="col-md-4">
+            <h4 class="margin">Birthday</h4>
+            <img class="img-fluid margin" src="https://zupimages.net/up/19/35/1eob.jpg" alt="birthday example">
+          </div>
+          <div class="col-md-4">
+            <h4 class="margin">Shooting</h4>
+            <img class="img-fluid margin" src="https://zupimages.net/up/19/35/477o.jpg" alt="portrait example">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quote -->
+    <div class="container-fluid text-center" id="quote">
+      <h3>Wanna me as photographer ?</h3>
+      <p class="margin subtitle">Make a free quote</p>
+      <div class="container">
+        <form>
+          <input class="form-control margin" id="name" name="name" placeholder="Name" type="text" required>
+          <input class="form-control margin" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control margin" id="tel" name="tel" type="tel" placeholder="0600000000" required>
+          <textarea class="form-control margin" id="comments" name="comments" placeholder="Meke a precise description of your project and more..." rows="12"></textarea>
+          <button class="btn btn-lg btn-block bg-dark custom-btn" type="submit">Send our quote</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid text-center bg-1">
+        <p>Bootstrap Theme made with <ion-icon class="icon" name="heart"></ion-icon> by Elise Guezel<p> 
+        <p>All images are available on <a href="https://unsplash.com/">Unsplash</a> and <a href="https://www.pexels.com">Pexels</a></p>
+      </div>
+    </footer>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Ionicons Script -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
