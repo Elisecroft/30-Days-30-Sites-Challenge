@@ -1,0 +1,95 @@
+/* GENERAL */
+
+p {
+  font-size: 22px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 35px;
+  font-family: 'Livvic', sans-serif;
+}
+
+.bg-1 {
+  background-color: #141414;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+/* NAVBAR */
+
+.navbar-nav li a {
+  color: #FFFFFF !important;
+}
+
+.navbar-nav li a:hover {
+  color: #727271 !important;
+}
+
+.navbar h1 {
+  letter-spacing: 2px;
+  font-family: 'Livvic', sans-serif;
+}
+
+.nav-item {
+  padding: 0 15px;
+  letter-spacing: 3px;
+  font-family: 'Livvic', sans-serif;
+}
+
+/* HERO */
+
+.bg-hero {
+  background-image: url("https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  color: #FFFFFF;
+}
+
+/* ABOUT */
+
+#curse img {
+  max-width: 100px;
+}
+
+#photographer-portrait {
+  max-width : 450px;
+}
+
+/* QUOTE */
+
+.bg-dark.custom-btn {
+  color: #FFFFFF;
+}
+
+.bg-dark.custom-btn:hover {
+  color: #FFFFFF;
+}
+
+/* FOOTER */
+
+footer .icon {
+  color: #727271;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #727271;
+  text-decoration: none;
+}
