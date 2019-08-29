@@ -1,0 +1,147 @@
+/* GENERAL */
+
+p {
+  font-size: 22px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 35px;
+}
+
+.bg-1 {
+  color: #FFFFFF;
+  background-color: #2DB0B9;
+}
+
+.bg-2 {
+  background-color: #141414;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: white;
+}
+
+.navbar h1 a {
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  color: #111111 !important;
+  border-color: #111111 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)  !important;
+}
+
+.navbar-nav li a {
+  color: #111111 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #2DB0B9 !important;
+}
+
+.navbar-brand {
+  color: #2DB0B9 !important;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+
+.hero {
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/1051098/pexels-photo-1051098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.hero h2 {
+  margin-top: 50px;
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.hero p {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+/* LIST */
+
+#list img {
+  width: 500px;
+  height: 250px;
+}
+
+.note {
+  color: #2DB0B9;
+}
+
+/* CONTACT */
+
+.map-container{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* PROMOTE */
+
+#promote .icon {
+  font-size: 80px;
+}
+
+/* FOOTER */
+
+footer .icon {
+  color: #2DB0B9;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #2DB0B9;
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 440px) {
+  .hero p {
+    display: none;
+  }
+}
