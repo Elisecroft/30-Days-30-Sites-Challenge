@@ -1,0 +1,116 @@
+/* GENERAL */
+
+p {
+  font-size: 22px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 35px;
+  font-family: 'Space Mono', monospace;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: white;
+}
+
+.navbar h1 a {
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  color: #111111 !important;
+  border-color: #111111 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)  !important;
+}
+
+.navbar-nav li a {
+  color: #111111 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #456FA3 !important;
+}
+
+.navbar-brand {
+  color: #456FA3 !important;
+  letter-spacing: 2px;
+  font-family: 'Space Mono', monospace;
+}
+
+.nav-item {
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+
+.hero {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1387&q=80");
+}
+
+/* ACTIVITY */
+
+#activity img {
+  max-width: 300px;
+}
+
+#activity .icon {
+  color: #456FA3;
+  font-size: 60px;
+}
+
+#activity p {
+  font-size: 28px;
+}
+
+/* JOIN */
+
+.underline {
+  text-decoration: underline solid #456FA3;
+}
+
+/* FOOTER */
+
+.bg-footer {
+  background-color: #141414;
+  color: #FFFFFF;
+}
+
+footer .icon {
+  color: #456FA3;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #456FA3;
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  #member img {
+    max-width: 350px;
+  }
+}
