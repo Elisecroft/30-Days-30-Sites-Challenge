@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pepsi Love</title>
+    <meta charset="utf-8">
+    <!-- My CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Ionicons CSS -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <h1><a class="navbar-brand" href="#home"> Pepsi
+        </a></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="container-fluid hero text-center" id="home">
+    </div>
+    <!-- New Pepsi -->
+    <div class="container-fluid text-center bg-2" id="new">
+      <h3 class="margin">Our new Pepsi !</h3>
+      <div class="container bg-1">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="margin">Discover the new Pepsi Max and enjoy !</h4>
+            <p class="margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Num igitur eum postea censes anxio animo aut sollicito fuisse? Erat enim Polemonis. Philosophi autem in suis lectulis plerumque moriuntur. Cyrenaici quidem non recusant.</p>
+            <p class="margin">Est, ut dicis, inquam. Sed fortuna fortis; Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. An haec ab eo non dicuntur? Num igitur eum postea censes anxio animo aut.</p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1553456558-aff63285bdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Pepsi Max">
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- About -->
+    <div class="container-fluid text-center bg-2" id="about">
+      <h3 class="margin">About Pepsi</h3>
+      <div class="container bg-1">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1502389743708-d00f658638bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Lot of Pepsi">
+          </div>
+          <div class="col-md-6">
+            <h4 class="margin">Learn more about Pepsi</h4>
+            <p class="margin">Hoc ille tuus non vult omnibusque ex rebus voluptatem quasi mercedem exigit. Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud negotii nihil habemus. Sed quod proximum fuit non vidit. Duo Reges: constructio interrete.</p>
+            <p class="margin">Sollicito fuisse? Illo enim addito iuste fit recte factum, per se autem hoc ipsum reddere in officio ponitur. Quamquam te quidem video minime esse deterritum. Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.</p>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us -->
+        <div class="container-fluid text-center bg-2" id="contact">
+      <h3 class="margin">Contact Us</h3>
+      <div class="container bg-1">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <input class="form-control margin" id="fist-name" name="name" placeholder="First Name" type="text" required>
+                </div>
+                <div class="col-md-6">
+                  <input class="form-control margin" id="last-name" name="name" placeholder="Last Name" type="text" required>
+                </div>
+              </div>
+              <input class="form-control margin" id="email" name="email" placeholder="Email" type="email" required>
+              <textarea class="form-control margin" id="comments" name="comments" placeholder="Your message..." rows="6"></textarea>
+              <button class="btn btn-lg btn-block btn-danger" type="submit">Send to Us</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid text-center bg-footer">
+        <p>Bootstrap Theme made with <ion-icon class="icon" name="heart"></ion-icon> by Elise Guezel<p> 
+        <p>All images are available on <a href="https://unsplash.com/">Unsplash</a></p>
+      </div>
+    </footer>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Ionicons Script -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
