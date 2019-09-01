@@ -1,0 +1,103 @@
+/* GENERAL */
+
+p {
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 35px;
+  font-family: 'ABeeZee', sans-serif;
+  color: #7692FF;
+}
+
+.container-fluid h5 {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 600;
+}
+
+.container-fluid h4 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: white;
+}
+
+.navbar h1 a {
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  color: #111111 !important;
+  border-color: #111111 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)  !important;
+}
+
+.navbar-nav li a {
+  color: #111111 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #7692FF !important;
+}
+
+.navbar-brand {
+  color: #7692FF !important;
+  font-family: 'ABeeZee', sans-serif;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+
+.hero {
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/2837651/pexels-photo-2837651.jpeg");
+}
+
+/* FOOTER */
+
+.bg-footer {
+  background-color: #343A40;
+  color: #FFFFFF;
+}
+
+footer .icon {
+  color: #7692FF;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #7692FF;
+  text-decoration: none;
+}
