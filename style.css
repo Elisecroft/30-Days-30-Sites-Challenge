@@ -1,0 +1,91 @@
+/* GENERAL */
+
+p {
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding: 65px 0px;
+}
+
+.container-fluid h3 {
+  font-size: 35px;
+  color: #7692FF;
+}
+
+.container-fluid h4 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: white;
+}
+
+.navbar h1 a {
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  color: #111111 !important;
+  border-color: #111111 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)  !important;
+}
+
+.navbar-nav li a {
+  color: #111111 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #7692FF !important;
+}
+
+.navbar-brand {
+  color: #7692FF !important;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+
+.hero {
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+/* FOOTER */
+
+.bg-footer {
+  background-color: #343A40;
+  color: #FFFFFF;
+}
+
+footer .icon {
+  color: #7692FF;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #7692FF;
+  text-decoration: none;
+}
